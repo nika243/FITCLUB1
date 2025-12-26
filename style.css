@@ -912,9 +912,7 @@ header {
 }
 
 /* Responsive About/Contact */
-@media (max-width: 768px) 
-  
-
+@media (max-width: 768px) {
   .about-hero-content h1 {
     font-size: 36px;
   }
@@ -967,11 +965,7 @@ header {
   }
 }
 
-@media (max-width: 480px)
- 
-    
- 
-
+@media (max-width: 480px) {
   .about-hero-content h1 {
     font-size: 24px;
   }
@@ -1051,9 +1045,10 @@ header {
   letter-spacing: 0%;
   text-align: center;
 }
-.about-image-card img{
+.about-image-card img {
   max-width: 100%;
 }
-.about-hero-content p, .about-hero-content span {
+.about-hero-content p,
+.about-hero-content span {
   font-size: 30px;
 }
